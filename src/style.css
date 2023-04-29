@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #8971d0;
+  --content-color: #5585b5;
+  --box-shadow: 10px 10px 10px #5585b5;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 20px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+h2,
+h3 {
+  text-align: center;
+  font-weight: 600;
+}
+h4 {
+  text-align: center;
+  font-size: 42px;
+}
+img {
+  padding: 0 20px;
+}
+p {
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+a.contact {
+  color: white;
+}
+a.contact:hover {
+  color: red;
+}
+.about-content {
+  display: flex;
+}
+a.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.lorem {
+  border: 2px solid black;
+  padding: 10px;
+  flex: 1;
+  background-color: var(--content-color);
+  color: white;
+}
+.home-link {
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+.app-button {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
